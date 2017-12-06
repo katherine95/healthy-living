@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="35dp"
+        android:text="Question"
+        android:textColor="#263238"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/display_text_view"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background=""
+        android:padding="20dp"
+        android:text=""
+        android:textColor="#263238"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/display_text_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background=""
+        android:onClick="yes"
+        android:text="Yes"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/display_text_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="Sometimes"
+        android:onClick="sometimes"
+        android:text="Sometimes"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/display_text_view_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background=""
+        android:onClick="no"
+        android:text="No"
+        android:textSize="25sp" />
+</LinearLayout>
